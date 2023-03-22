@@ -129,6 +129,7 @@ git clone https://github.com/Woking-34/daedalus-compute.git
 cd daedalus-compute
 mkdir daedalus-build && cd daedalus-build
 cmake .. -G"Visual Studio 15 2017 Win64"
+cmake .. -G"Visual Studio 2019 Win64"
 cmake --build . --target comp_deform_gl --config Release
 cmake --build . --target comp_cloth_gl --config Release
 cmake --build . --target comp_particles_gl --config Release
